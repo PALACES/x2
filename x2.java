@@ -112,7 +112,10 @@ void dog() {
   ellipse(dogX,dogY, 50,25 ); //dog body
   ellipse (dogX-22, dogY+12,7,20); //dogleg 1
   ellipse (dogX+5, dogY+12,7,20); //dogleg 3
-  ellipse (dogX+20, dogY-5, 25, 20);
+  ellipse (dogX+20, dogY-5, 25, 20); //dog head
+  rect (dogX+22, dogY-5, 17, 10); //muzzle
+  ellipse(dogX+17, dogY-2, 12, 25); //dogear
+  ellipse(dogX+17, dogY-2, 12, 25);
   /* INSERT YOUR CODE HERE! */
   /* REPLACE THIS STUB! */  text( "woof, woof!d!!", 150, 150 );
 }
