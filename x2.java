@@ -112,12 +112,9 @@ void dog() {
   //
   fill( 88,66,39 );
  
+  ellipse (dogX-24, dogY-8, 10, 10); //dogtail 
   ellipse (dogX+15, dogY+12,7,20); //dogleg 4 
   ellipse (dogX-12, dogY+12,7,20); //dogleg 2
-  
-  
-  
-
   ellipse(dogX,dogY, 50,25 ); //dog body
   ellipse (dogX-22, dogY+12,7,20); //dogleg 1
   ellipse (dogX+5, dogY+12,7,20); //dogleg 3
